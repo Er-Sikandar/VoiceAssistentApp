@@ -23,6 +23,7 @@ private ActivityMainBinding binding;
         binding.btnStxt.setOnClickListener(view -> {
             startActivity(new Intent(this, SpeechTxt2Activity.class));
         });
+    // code update
 
         binding.btnTspeech.setOnClickListener(view -> {
             startActivity(new Intent(this, TextToSpeechActivity.class));
