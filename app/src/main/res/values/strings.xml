@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VoiceAssistentApp</string>
+
+    <string name="sp_to_txt">Speech To Text</string>
+</resources>

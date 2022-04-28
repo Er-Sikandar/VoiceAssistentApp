@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+   <ImageView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="100dp"
+       android:src="@drawable/g_ssi"/>
+    <Button
+        android:id="@+id/btn_tspeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="50dp"
+        android:text="Text To Speech" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech To Text"
+        android:id="@+id/btn_stxt"
+        android:layout_marginTop="30dp"
+        android:minHeight="50dp"
+        android:layout_below="@+id/btn_tspeech"
+       android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</layout>
